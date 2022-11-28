@@ -14,7 +14,7 @@ class ApptController extends Controller
     {
         $appt = new Appt;
 		$appts = $appt->get();
-	    return view('appt.list2',  ["appts" => $appts]);
+	    return view('appt.list',  ["appts" => $appts]);
     }
     /**
      * Show the form for creating a new resource.
