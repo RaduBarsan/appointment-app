@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/uml', function () {
+    return view('uml');
+});
+
 Route::controller(ApptController::class)->group(function () {
     Route::get('/appt', 'index');
 });
