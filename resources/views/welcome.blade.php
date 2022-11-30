@@ -8,6 +8,8 @@
                 <h2><a href="appt/select" class="btn btn-outline-primary" style='font-size:1.8em'>Make New Appointment</a></h2>
 				<br>
 				<h2><a href="appt" class="btn btn-outline-primary" style='font-size:1.7em'>Show Appointments* </a></h2> <i>*protected admin login mode not implemented because is not a required task (see bellow)</i>
+             <hr><h2><a href="uml" class="btn btn-outline-primary" style='font-size:1.7em'>UML Diagram </a></h2>
+			</hr>
             </div>
         </div>
     </div>
